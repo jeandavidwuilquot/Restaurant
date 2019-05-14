@@ -1,0 +1,32 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+.logo{
+    width: 98px;
+    height: auto;
+}
+.jumbotron{
+    text-align: center;
+    background-color: transparent;
+    background-image: url("Images/grillades.jpg");
+    background-repeat: no-repeat;
+   
+    
+}
+nav{
+   font-size: 25px;
+}
+/*style acceuil*/
+
+.display-4{
+    color:orange;
+    font-size: 60px;   
+}
+.texte1{
+    color:orange;
+    font-size: 40px;   
+}
+.texte2{
+    color:orange;
+    font-size: 30px;   
+}
