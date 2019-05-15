@@ -38,23 +38,26 @@
         </ul>
     </nav>
     <h1>La carte</h1>
-    <h3>A Partager Au Bar Ou À Table...</h3>
-    <ul class="list-group">
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Soupe de poisson</br>
-                    Avec sa rouille, ses croutons et son fromage
-              <span class="badge badge-primary badge-pill">€15.00</span>
+    <div class="bs-example">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="#partager" class="nav-link">A partager</a>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Le Plateau du Chef </br>Assortiment de Mini-croquettes de crevettes, Ribs, Merguez.
-              <span class="badge badge-primary badge-pill">€13.00</span>
+            <li class="nav-item">
+                <a href="#entrees" class="nav-link">Entrées</a>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Sardines Millésimées </br>La Perle des Dieux avec sa salade
-              <span class="badge badge-primary badge-pill">€13.00</span>
+            <li class="nav-item">
+                <a href="#plats" class="nav-link">Plats</a>
             </li>
-          </ul>
-    <h3>A Partager Au Bar Ou À Table...</h3>
+            <li class="nav-item">
+                <a href="#incontournables" class="nav-link">Incontournables</a>
+            </li>
+            <li class="nav-item">
+                <a href="#desserts" class="nav-link">Desserts</a>
+            </li>
+        </ul>
+    </div>
+    <h3 id="partager">A Partager Au Bar Ou À Table...</h3>
     <div class="container">
         <div class="row">
             <div class="col offset-2">Soupe de poisson<p> Avec sa rouille, ses croutons et son fromage</p>
@@ -71,10 +74,18 @@
             <div class="col">€13.00</div>
         </div>
     </div>
-    <h3>Entrées</h3>
+    <h3 id="entrees">Entrées</h3>
     <div class="container">
         <div class="row">
+            <div class="col offset-2">Assiette de saumon fumé avec une petite salade de saison et toasts grillés<p></p>
+            </div>
+            <div class="col">€13.00</div>
+            <div class="w-100"></div>
             <div class="col offset-2">Brochette de Gambas<p> Ail et Piment d’Espelette, salade</p>
+            </div>
+            <div class="col">€15.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Assiette de jambon cru fumé "Pata Negra", tomates séchées, parmesan<p></p>
             </div>
             <div class="col">€15.00</div>
             <div class="w-100"></div>
@@ -93,21 +104,121 @@
             </div>
             <div class="col">€14,00</div>
             <div class="w-100"></div>
-            <div class="col offset-2">Tomates Mozzarella Burrata façon "FlambantBoeuf"<p>Tomates fraîches, Mozzarella
+            <div class="col offset-2">Tomates Mozzarella Burrata façon<p>Tomates fraîches, Mozzarella
                     Burrata, Basilic, vinaigrette Basilic et citron vert</p>
             </div>
             <div class="col">€15,00</div>
         </div>
     </div>
-    <h3>Plats</h3>
+    <h3 id="plats">Plats</h3>
     <div class="container">
         <div class="row">
-            <div class="col offset-2">Entrecôte Blonde d’Aquitaine ou Limousine 250g<p>Boeuf Brésilien persillé et tendre reconnu comme une des meilleures viandes d’Amérique du sud</p>
+            <div class="col offset-2">Entrecôte Blonde d’Aquitaine ou Limousine 250g<p>Boeuf Brésilien persillé et
+                    tendre reconnu comme une des meilleures viandes d’Amérique du sud</p>
             </div>
             <div class="col">€25.00</div>
             <div class="w-100"></div>
-        </div>
+            <div class="col offset-2">Steak BBB femelle 5 ans 300G<p> Le BBB n’est pas mort, à côté des viandes
+                    étrangères, le BBB femelle de 5 ans n’a presque plus rien à leur envier, persillée, elle est à la
+                    fois tendre et pauvre en graisse</p>
+            </div>
+            <div class="col">€24.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Onglet d’Irish à l’échalote 250g<p> Viande de Boeuf Irish, un morceau de choix qui
+                    revient en force</p>
+            </div>
+            <div class="col">€23.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Entrecôte Irish 300g<p> Une viande persillée et goûteuse à souhait, redécouvrez la
+                    viande de boeuf !</p>
+            </div>
+            <div class="col">€28.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Magret de canard grillé<p>Grillé , sauce "Humeur du Chef" et gratin dauphinois</p>
+            </div>
+            <div class="col">€27.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Tous nos plats peuvent être accompagnés de sauce « Maison »<p> Au choix :
+                    Béarnaise, Crème champignons, au Bleu, Poivre crème et Beurre Maître d’Hôtel</p>
+            </div>
+            <div class="col">€2.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Côtes de porc Ibérique grillée reduction balsamique au Romarin<p> Une viande de
+                    porc savoureuse, ces porc sont nourris exclusivement de glands, ce qui leur donne cette saveur
+                    unique</p>
+            </div>
+            <div class="col">€28.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Côte de Veau 300 gr<p> Délicate en texture et saveur, simplement grillée,
+                    accompagnée d'une poëlée de légumes de saison et de petites pommes de terre.</p>
+            </div>
+            <div class="col">€26.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Grillade Végétarienne<p> Selon l'humeur du chef et des légumes de saisons</p>
+            </div>
+            <div class="col">€21.00</div>
 
+        </div>
+    </div>
+    <h3 id="incontournables">Les incontournables</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col offset-2">Boulets à la Liégeoise<p> 2 pièces</p>
+            </div>
+            <div class="col">€15.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Hamburger maison<p> Un Bun extra tendre et léger, une viande de Boeuf riche en
+                    goût, tomate, oignons, cornichons, salade croquante et sauce "Maison"</p>
+            </div>
+            <div class="col">€16.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Filet américain minute préparé par vos soins<p> Car chacun a le droit de le
+                    préparer comme il le souhaite, nous vous donnons tout pour faire VOTRE américain</p>
+            </div>
+            <div class="col">€16.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Hamburger « Rossini »<p>Hamburger de boeuf avec une escalope de foie gras
+                    poêlé, sauce figues et oignons</p>
+            </div>
+            <div class="col">€23.00</div>
+            <div class="w-100"></div>
+
+        </div>
+    </div>
+    <h3 id="desserts">Les desserts</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col offset-2">Café Gourmand<p> Café et assortiment de mini-desserts</p>
+            </div>
+            <div class="col">€8.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Brochette de fruits du Chef flambés au Feu de Bois<p> Fruits Flambés au feu de
+                    bois</p>
+            </div>
+            <div class="col">€8.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Fondant au chocolat<p> Aux éclats de pistache parfumé Cardamome, glace Vanille «
+                    Maison » et sa crème à la pistache</p>
+            </div>
+            <div class="col">€8.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Profiteroles, crème caramel au Beurre salé<p></p>
+            </div>
+            <div class="col">€7.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Dame Blanche<p> Avec son chocolat fondant et chaud</p>
+            </div>
+            <div class="col">€8.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Crème brûlée à la lavande<p></p>
+            </div>
+            <div class="col">€8.00</div>
+            <div class="w-100"></div>
+            <div class="col offset-2">Moelleux au chocolat<p></p>
+            </div>
+            <div class="col">€8.00</div>
+            <div class="w-100"></div>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
