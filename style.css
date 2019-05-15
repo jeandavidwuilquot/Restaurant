@@ -1,32 +1,145 @@
-body{
+body {
     font-family: 'Indie Flower', cursive;
+    background: rgba(134, 174, 204, 1);
+    background: -moz-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(134, 174, 204, 1)), color-stop(100%, rgba(212, 228, 239, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    background: linear-gradient(135deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=1);
 }
-.logo{
+
+.logo-nav1 {
     width: 98px;
     height: auto;
 }
-.jumbotron{
+
+.jumbotron {
     text-align: center;
     background-color: transparent;
-    background-image: url("Images/grillades.jpg");
+    background-image: url("Images/grillades3.jpg");
     background-repeat: no-repeat;
-   
-    
+
+
 }
-nav{
-   font-size: 25px;
+
+nav {
+    font-size: 25px;
 }
+
+.logo-nav {
+    width: 35px;
+    height: auto;
+}
+
+.navbar-toggler-icon {
+    border: solid, 1px, orange !important;
+}
+
+.navbar-toggler {
+    border: solid, 1px, orange !important;
+    background-color: orange !important;
+}
+
+.button.navbar-toggler-icon {
+    border: 1px, orange !important;
+    color: orange !important;
+}
+
 /*style acceuil*/
 
-.display-4{
-    color:orange;
-    font-size: 60px;   
+.display-4 {
+    color: orange;
+    font-size: 60px;
 }
-.texte1{
-    color:orange;
-    font-size: 40px;   
+
+.texte1 {
+    color: orange;
+    font-size: 40px;
 }
-.texte2{
-    color:orange;
-    font-size: 30px;   
+
+.texte2 {
+    color: orange;
+    font-size: 30px;
+}
+
+/*style card*/
+
+
+.card1 {
+    width: 250px;
+    height: auto;
+}
+
+.card-img-left {
+    width: 200px;
+    height: auto;
+}
+
+.card2 {
+    width: 250px;
+    height: auto;
+}
+
+.card-img-right {
+    width: 200px;
+    height: auto;
+}
+
+/*style carte*/
+.titre-carte {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.badges {
+    font-size: 25px;
+    margin-bottom: 60px;
+    text-align: center
+}
+
+.nav-badges {
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center
+}
+
+.container {
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+/*style Restaurants*/
+.titre-resto {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 80px;
+}
+.info1 {
+    width: 300px;
+    height: 400px;
+}
+.info2{
+    width: 300px;
+    height: 400px;
+}
+/*google maps responsive*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }

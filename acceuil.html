@@ -18,35 +18,93 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-sm bg-dark nav justify-content-center">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="acceuil.html">Acceuil</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="carte.html">Carte</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="photos.html">Photos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="restaurants.html">Restaurant</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-expand-lg">
+        <a href="#" class="navbar-brand"><img class="logo-nav" src="Images/logochat.png">Le Chat Noir</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href="acceuil.html" class="nav-link">Acceuil</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="carte.html" class="nav-link">Carte</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="photos.html" class="nav-link">Photos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="restaurants.html" class="nav-link">Restaurants</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!--jumbotron-->
     <div class="jumbotron">
-        <img class="logo" src="Images/logochat.png">
+        
+        <img class="logo-nav1" src="Images/logochat.png">
         <h1 class="display-4"> Au Chat Noir</h1>
         <p class="lead texte1">Restaurant, grillades, spécilalité cuisine française.</p>
         <hr class="my-4">
         <p class="texte2">Vous acceuille à Braine-le-Château au coeur du Brabant wallon.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Réserver Maintenant</a>
     </div>
-    
+
+    <!--Cards-->
+
+    <div class="container" style="margin-top:30px">
+        <div class=row>
+            <div class="col offset-2">
+                <div class="card1">
+                    <img class="card-img-left" alt="photo resto" src="Images/card3.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>"Promotion"</strong></h5>
+                        <p class="card-text">Venez découvrir notre menu de la semaine:</p>
+                    </div>
+                    <!-- List group -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>En entrée: Carpacio de Saint-Jacques au safran</p>
+                            <p>En plat: Onglet aux échalotes</p>
+                            <p>Dessert: Flûte au rhum</p>
+                            <p>€30.00</p>
+                        </li>
+
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">Réserver</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card2">
+                    <img class="card-img-right" alt="photo resto" src="Images/card2.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>"Event"</strong></h5>
+                        <p class="card-text">Tous les les jeudis, nous vous invitons à notre soirée cocktail</p>
+                    </div>
+                    <!-- List group -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p>Margaritha, Caipirinha, Mojito, Aperol Spritz</p>
+                            <p>Un cocktail acheté, un cocktail offert</p>
+                            <p>Ambiance musicale assurée par Samba Bossa</p>
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">Réserver</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
