@@ -129,6 +129,55 @@ h3 {
     width: 300px;
     height: 400px;
 }
+/*style photos*/
+
+#photo1{
+    width: 250px;
+    height: 250px;
+}
+#photo2{
+    width: 250px;
+    height: 250px;
+}
+#photo3{
+    width: 250px;
+    height: 250px;
+}
+#photo4{
+    width: 250px;
+    height: 250px;
+}
+#photo5{
+    width: 250px;
+    height: 250px;
+}
+#photo6{
+    width: 250px;
+    height: 250px;
+}
+#photo7{
+    width: 250px;
+    height: 250px;
+}
+#photo8{
+    width: 250px;
+    height: 250px;
+}
+#photo9{
+    width: 250px;
+    height: 250px;
+}
+#photo10{
+    width: 250px;
+    height: 250px;
+}
+
+.page-item:hoover{
+    opacity: 0.7;
+}
+
+
+
 /*google maps responsive*/
 .map-responsive{
     overflow:hidden;

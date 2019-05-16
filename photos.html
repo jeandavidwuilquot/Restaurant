@@ -19,31 +19,56 @@
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-sm bg-dark navbar-expand-lg">
-            <a href="#" class="navbar-brand"><img class="logo-nav" src="Images/logochat.png">Le Chat Noir</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="navbar-item">
-                        <a href="acceuil.html" class="nav-link">Acceuil</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="carte.html" class="nav-link">Carte</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="photos.html" class="nav-link">Photos</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="restaurants.html" class="nav-link">Restaurants</a>
-                    </li>
-                    <li class="navbar-item">
-                            <a href="contact.html" class="nav-link">Contact</a>
-                        </li>
-                </ul>
+        <a href="acceuil.html" class="navbar-brand"><img class="logo-nav" src="Images/logochat.png">Le Chat Noir</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href="acceuil.html" class="nav-link">Acceuil</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="carte.html" class="nav-link">Carte</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="photos.html" class="nav-link">Photos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="restaurants.html" class="nav-link">Restaurants</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img id="photo1" src="Images/photo1.jpg" alt="">
             </div>
-        </nav>
+            <div class="col-lg-4">
+                <img id="photo2" src="Images/photo2.jpg" alt="">
+            </div>
+            <div class="col-lg-4">
+                <img id="photo3" src="Images/photo3.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <!--pagination-->
+    <nav aria-label ="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link bg-dark" href="photos3.html">Précédent</a></li>
+            <li class="page-item"><a class="page-link bg-dark" href="photos.html">1</a></li>
+            <li class="page-item"><a class="page-link bg-dark" href="photos2.html">2</a></li>
+            <li class="page-item"><a class="page-link bg-dark" href="photos3.html">3</a></li>
+            <li class="page-item"><a class="page-link bg-dark" href="photos2.html">Suivant</a></li>
+        </ul>
+    </nav>
     
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
