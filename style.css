@@ -1,13 +1,6 @@
 body {
     font-family: 'Indie Flower', cursive;
-    background: rgba(134, 174, 204, 1);
-    background: -moz-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(134, 174, 204, 1)), color-stop(100%, rgba(212, 228, 239, 1)));
-    background: -webkit-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
-    background: linear-gradient(135deg, rgba(134, 174, 204, 1) 0%, rgba(212, 228, 239, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=1);
+   background-color: #8EB19D;
 }
 
 .logo-nav1 {
@@ -19,9 +12,7 @@ body {
     text-align: center;
     background-color: transparent;
     background-image: url("Images/grillades3.jpg");
-    background-repeat: no-repeat;
-
-
+    background-repeat: no-repeat
 }
 
 nav {
@@ -34,34 +25,51 @@ nav {
 }
 
 .navbar-toggler-icon {
-    border: solid, 1px, orange !important;
+    border: solid, 1px, #F3C178 !important;
 }
 
 .navbar-toggler {
-    border: solid, 1px, orange !important;
-    background-color: orange !important;
+    border: solid, 1px, #F3C178 !important;
+    background-color: #F3C178 !important;
 }
 
 .button.navbar-toggler-icon {
-    border: 1px, orange !important;
-    color: orange !important;
+    border: 1px, #F3C178 !important;
+    color: #F3C178 !important;
 }
 
 /*style acceuil*/
 
 .display-4 {
-    color: orange;
+    color:#F3C178;
     font-size: 60px;
+   
 }
 
 .texte1 {
-    color: orange;
+    color:#F3C178;
     font-size: 40px;
 }
-
+h5{
+    text-align: center;
+}
 .texte2 {
-    color: orange;
+    color: #F3C178;
     font-size: 30px;
+}
+.btn-main:hover{
+transform: scale(1.2);
+background-color:#F3C178;
+}
+.btn-c{
+    text-align: center !important; 
+}
+.btn-bottom:hover{
+    transform: scale(1.2);
+    background-color: #F3C178;
+}
+.list-group-item{
+    background-color: #C6B38E;
 }
 
 /*style card*/
@@ -72,8 +80,8 @@ nav {
     height: auto;
 }
 
-.card-img-left {
-    width: 200px;
+.card-img-1 {
+    width: 250px;
     height: auto;
 }
 
@@ -82,11 +90,19 @@ nav {
     height: auto;
 }
 
-.card-img-right {
-    width: 200px;
+.card-img-2 {
+    width: 250px !important;
+    height: 187px !important;
+}
+.card3 {
+    width: 250px;
     height: auto;
 }
 
+.card-img-3 {
+    width: 250px;
+    height: auto;
+}
 /*style carte*/
 .titre-carte {
     text-align: center;
@@ -128,6 +144,11 @@ h3 {
 .info2{
     width: 300px;
     height: 400px;
+}
+.badge-pill{
+    width: 70px;
+    height: 25px;
+    font-size: 17px;
 }
 /*style photos*/
 .titre-photo{
